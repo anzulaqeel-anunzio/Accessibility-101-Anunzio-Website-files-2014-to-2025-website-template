@@ -1,0 +1,237 @@
+
+
+input, textarea 
+{
+	background: #F3F6ED;
+	border: #E1D6C6 1px solid;
+}
+#rap 
+{
+	background:transparent;
+
+}
+#header {
+	background:#fff url(scripts/img/top.jpg) no-repeat bottom; 	
+ 	height: 183px;
+	margin: 0 auto;
+	width:760px;
+	padding:0;
+	border:#fc9 0px solid;
+	
+}#sidebar {
+	width:300px;
+	padding:0px 8px 10px 8px;
+	margin:0;
+	font-size:1em;
+	color:#333;
+	display:inline;
+
+}
+acronym, abbr {
+	border-bottom: 1px dotted #0c6bf0;
+}
+acronym, abbr, span.caps {
+	cursor: help;
+	letter-spacing: .07em;
+}
+
+
+cite {
+	font-size: 0.9em;
+	font-style: normal;
+}
+
+#header h1 a 
+{
+	color:#B5C09D;
+	text-decoration:none;
+}
+#header h1 a:hover 
+{
+/* Developed by Anunzio International */
+	color:#F7F3ED;
+}
+#header #desc
+{
+	font-weight:normal;
+	font-style:italic;
+	font-size:1em;
+	color:#B5C09D;
+	text-align:right;
+	margin:0;
+	padding:0 20px 0 0;
+}
+#sidebar h2 {
+	margin: 10px 0 0 0;
+	padding:2px;
+	font-size: 1em;
+	color: #676E04;
+	text-align:center;
+	background:url(scripts/img/sidenav_top.jpg) no-repeat center;
+	border:#ccc 0px solid;
+	height:22px;
+	font-weight:bold;
+}
+#sidebar ul {
+	list-style-type: none;
+	padding: 5px;
+	margin: 0;
+	font-size: 0.9em;	
+	padding-bottom:3em;
+	background:#F3F6ED url(scripts/img/sidenav_bottom.jpg) no-repeat bottom;
+	border:#E1D6c6 1px solid;
+	border-top:#f3f6ed 1px solid;
+}
+#sidebar ul li {
+	margin: 0.1em 0 0 0;
+	padding: 0;	
+}
+#sidebar li a {
+	text-decoration: none;
+	border:none;
+}
+#sidebar li a:link {
+	color: #909D73;	
+}
+#sidebar li a:visited {
+	color: #999999;	
+}
+#sidebar li a:hover, #sidebar li a:active {
+	color: #990000;
+}
+/* Developed by Anunzio International */
+#content ul {
+	margin-left: 0;
+	padding-left: 45px;
+	list-style-type: none;
+}
+#content ul li {
+	background: url(scripts/img/bullet.gif) no-repeat 0 7px;
+	padding-left: 1.5em;
+}
+.post 
+{
+	margin:0 0 30px 0;
+}
+.post-info 
+{
+
+	margin:0;
+	padding:0;
+	color:#333;
+}
+.post-info a
+{
+	color:#990000;
+}
+.post-info a:hover 
+{
+	color:#000;
+}
+.post-content {
+	padding:10px 0;
+	margin:3px 0;
+	border-top:#BBC4A3 1px solid;	
+}
+.post-title {
+	font-size:1.5em;
+	margin:0;
+	font-weight:bold;
+}
+.post-title a:link, .post-title a:visited, .post-title a:hover, .post-title a:active
+{
+	text-decoration:none;
+	color:#676E04;
+}
+.post-date {
+	float: left;
+	color: #BBC4A3;
+	font-size: 0.9em;
+	text-align: center;
+	font-weight: bold;
+	margin: 3px 10px 0 0;
+/* Developed by Anunzio International */
+	padding: 8px 3px;
+	width: 55px;
+	background: #E7EBDE;
+	line-height:1em;
+}
+.post-footer 
+{
+	padding-top:20px;
+	background:url(scripts/img/divider.gif) no-repeat center;
+}
+#footer {
+	margin:0 auto;
+	padding: 7px 0;
+	border-top:#BBC4A3 1px solid;
+	clear: both;
+	font-size: 0.8em;
+	color: #999;
+	text-align:center;
+	width:740px;
+}
+#footer a {
+border:none;
+color:#7A7636;
+}
+
+.commentlist {
+	font-size:1em;
+	font-weight:normal;	
+}
+#commentform 
+{
+	margin:0 0 0 40px;
+}
+#commentform textarea {
+	width: 80%;
+}
+#commentform p {
+	margin: 0 0 1em;
+}
+#comments,#respond {
+	text-transform: uppercase;
+	margin: 3em 0 1em 40px;
+	color: #676E04;
+	font: 0.9em verdana, helvetica, sans-serif;
+}
+.commentlist li 
+{
+	margin:5px 0;
+	padding:10px 10px 20px 10px;
+	background:#F3F6ED url(scripts/img/comments_bottom.jpg) repeat-x bottom;
+/* Developed by Anunzio International */
+	border:#E1D6C6 1px solid;
+}
+.commentlist .alt 
+{
+
+}
+#topnav 
+{
+	list-style:none;
+	font-size:0.9em;
+	margin:0 auto;	
+	padding:12px 20px 0 0;
+	text-align:right;	
+	font-family:Verdana, Arial, Sans-Serif;
+}
+#topnav li 
+{
+	list-style:none;
+	display:inline;
+	padding:0;
+	margin:0;
+	font-weight:bold;
+}
+
+#topnav li a:link, #topnav li a:visited
+{
+	text-decoration:none;	
+	color:#BBC4A3;
+}
+#topnav li a:hover, #topnav li a:active
+{
+	color:#F7F3ED;	
+}
